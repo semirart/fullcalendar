@@ -1,4 +1,10 @@
 
+v3.4.1 (2017-06-14)
+-------------------
+
+- enable extension of drag listeners
+
+
 v3.4.0 (2017-04-27)
 -------------------
 
@@ -947,7 +953,7 @@ v1.4.3 (2009-12-22)
 
 - added destroy method
 - Google Calendar event pages respect currentTimezone
-- caching now handled by jQuery's ajax	
+- caching now handled by jQuery's ajax
 - protection from setting aspectRatio to zero
 - bugfixes
 	- parseISO8601 and DST caused certain events to display day before
