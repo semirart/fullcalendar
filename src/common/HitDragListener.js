@@ -6,7 +6,7 @@ options:
 - subjectCenter
 */
 
-var HitDragListener = DragListener.extend({
+var HitDragListener = FC.HitDragListener = DragListener.extend({
 
 	component: null, // converts coordinates to hits
 		// methods: hitsNeeded, hitsNotNeeded, queryHit

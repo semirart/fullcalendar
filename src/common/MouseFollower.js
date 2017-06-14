@@ -2,7 +2,7 @@
 /* Creates a clone of an element and lets it track the mouse as it moves
 ----------------------------------------------------------------------------------------------------------------------*/
 
-var MouseFollower = Class.extend(ListenerMixin, {
+var MouseFollower = FC.MouseFollower = Class.extend(ListenerMixin, {
 
 	options: null,
 

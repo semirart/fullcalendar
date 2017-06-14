@@ -1411,3 +1411,5 @@ function getDraggedElMeta(el) {
 	return { eventProps: eventProps, startTime: startTime, duration: duration, stick: stick };
 }
 
+FC.getDraggedElMeta = getDraggedElMeta;
+
